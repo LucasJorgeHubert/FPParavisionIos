@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FPParavisioniOS_Example' do
+  pod 'FPParavisioniOS', :path => '../'
+
+  target 'FPParavisioniOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
