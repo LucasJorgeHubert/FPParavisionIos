@@ -1,0 +1,16 @@
+PODS:
+  - FPParavisioniOS (0.1.0)
+
+DEPENDENCIES:
+  - FPParavisioniOS (from `../`)
+
+EXTERNAL SOURCES:
+  FPParavisioniOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FPParavisioniOS: 8d6885fedbe1dcc97e95cf97df9cac418dc04afc
+
+PODFILE CHECKSUM: 6ac43081ad83d68d28ad0589638ed6f13949f646
+
+COCOAPODS: 1.11.3

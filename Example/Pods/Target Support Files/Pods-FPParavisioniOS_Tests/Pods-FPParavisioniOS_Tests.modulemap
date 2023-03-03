@@ -1,0 +1,6 @@
+framework module Pods_FPParavisioniOS_Tests {
+  umbrella header "Pods-FPParavisioniOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

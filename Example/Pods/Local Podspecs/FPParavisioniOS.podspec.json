@@ -1,0 +1,22 @@
+{
+  "name": "FPParavisioniOS",
+  "version": "0.1.0",
+  "summary": "FBParavisioniOS is a pod to conect FacePass flutter app to a iOS Paravision app",
+  "description": "FBParavisioniOS is a pod to conect FacePass flutter app to a iOS Paravision app",
+  "homepage": "https://github.com/LucasJorgeHubert/FPParavisioniOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lucas Hubert": "lucasjhubert@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/LucasJorgeHubert/FPParavisioniOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FPParavisioniOS/Classes/**/*"
+}

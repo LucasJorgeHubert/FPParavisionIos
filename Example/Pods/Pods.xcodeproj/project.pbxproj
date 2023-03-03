@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0F04C2D68AC7AB14AF3BF40F822BF9 /* Pods-FPParavisioniOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F99CAF2F4F238112847B379E4C8798 /* Pods-FPParavisioniOS_Example-dummy.m */; };
+		17BCA6A8DE65414AB20EFE2B86583E5C /* Pods-FPParavisioniOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD7D3461ED928723B55E6ACCFCB0943 /* Pods-FPParavisioniOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2254DCB9A82E48A99A746C92FAE82872 /* Pods-FPParavisioniOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C378D82794941242B7CF47BFDBF11B2A /* Pods-FPParavisioniOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ACAF0CF11D71F6AD388CAB0F4727475 /* Pods-FPParavisioniOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C09BE4D545E10837ACBB0F202C0725 /* Pods-FPParavisioniOS_Tests-dummy.m */; };
+		4485A1DF6A49931E798A0C4ABF1460C1 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E5107428FFE5F47CFE8853C84904A6 /* Logger.swift */; };
+		4E913FE76D58E390962DD35C0C21D0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		511F7771DFAE14D952778E44F74062CB /* FPParavisioniOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D515D946D431C5BEF1B9DEA750AD13B0 /* FPParavisioniOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86907C61B792C89736326F08DFC72EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		882844FF623494FE45EDCB15BA11CECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CBBA71F7F743B02FE5EE49F62479B278 /* FPParavisioniOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18228A6A0F58BCBA1A9307C8CE5A9207 /* FPParavisioniOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17F33919001A82728DFBC39675135569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0FA6FB6C477A20DC8FC51F5F4B754F;
+			remoteInfo = FPParavisioniOS;
+		};
+		2CC1A88EBD76557E0F80FB24F697F75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6D3B8EB014450B046AA0ED03C2DEE1;
+			remoteInfo = "Pods-FPParavisioniOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0640BD757DEA2385A8DC30233A6C2DE3 /* Pods-FPParavisioniOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FPParavisioniOS_Tests"; path = Pods_FPParavisioniOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18228A6A0F58BCBA1A9307C8CE5A9207 /* FPParavisioniOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPParavisioniOS-dummy.m"; sourceTree = "<group>"; };
+		1A892DFB35B9B1003B742EB3F0052EC8 /* Pods-FPParavisioniOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPParavisioniOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		240009A4829EF597F785ECC833B26597 /* Pods-FPParavisioniOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FPParavisioniOS_Example.modulemap"; sourceTree = "<group>"; };
+		2BCC54401D0A10B60A25A6DE457DCDDF /* Pods-FPParavisioniOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPParavisioniOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		2D03A7B284AB3513C8BA900CAAF4A866 /* Pods-FPParavisioniOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPParavisioniOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		356E79AC120535647B2E5BCB9FD54265 /* Pods-FPParavisioniOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPParavisioniOS_Example-Info.plist"; sourceTree = "<group>"; };
+		38C09BE4D545E10837ACBB0F202C0725 /* Pods-FPParavisioniOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FPParavisioniOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		457255EDF94800AA46A2C292FCFCE853 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		47975F828AA7C7556BF5882553E967A1 /* Pods-FPParavisioniOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FPParavisioniOS_Tests.modulemap"; sourceTree = "<group>"; };
+		493D75A048B8E27ECF4B7C6D79335EB1 /* FPParavisioniOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPParavisioniOS-prefix.pch"; sourceTree = "<group>"; };
+		4AA4A7D9C64DA58AD8E12152D5170D40 /* Pods-FPParavisioniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPParavisioniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		634A104B044FCCF0D49A84D6DBD95E3B /* FPParavisioniOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FPParavisioniOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		656CDB1FACCEC844B5E38D170E4904BA /* FPParavisioniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPParavisioniOS.debug.xcconfig; sourceTree = "<group>"; };
+		68E5107428FFE5F47CFE8853C84904A6 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = FPParavisioniOS/Classes/Logger.swift; sourceTree = "<group>"; };
+		69661F80D1DD875CA0D3972432D6ED1E /* Pods-FPParavisioniOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPParavisioniOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D6478C21E47120119DBBAD2D4F19B1C /* Pods-FPParavisioniOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FPParavisioniOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79EA6A350CB624A7C033DFD505017353 /* FPParavisioniOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FPParavisioniOS-Info.plist"; sourceTree = "<group>"; };
+		7B4CC0D743C1C4C5E734F9C0C0202DFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87AB1CAC31559868CBCB97B6EF07A501 /* Pods-FPParavisioniOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FPParavisioniOS_Example"; path = Pods_FPParavisioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2AF6BB5B7B4C0BD841A7D4D9969A1D /* Pods-FPParavisioniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPParavisioniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A79EE6EF67BDC291EE88A7AE6203F7F4 /* FPParavisioniOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPParavisioniOS.modulemap; sourceTree = "<group>"; };
+		A8D3F35DB9A2D02584A7F47D27B7C57B /* FPParavisioniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPParavisioniOS.release.xcconfig; sourceTree = "<group>"; };
+		B2B577FC6856A27A70FB392280ECE2BD /* Pods-FPParavisioniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPParavisioniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1294B780FDD2332550E7B36E67076F4 /* Pods-FPParavisioniOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FPParavisioniOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C378D82794941242B7CF47BFDBF11B2A /* Pods-FPParavisioniOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FPParavisioniOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBD7D3461ED928723B55E6ACCFCB0943 /* Pods-FPParavisioniOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FPParavisioniOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D515D946D431C5BEF1B9DEA750AD13B0 /* FPParavisioniOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPParavisioniOS-umbrella.h"; sourceTree = "<group>"; };
+		DE53F6562F91D3A174F6B98B3D4A38AE /* Pods-FPParavisioniOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPParavisioniOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7F99CAF2F4F238112847B379E4C8798 /* Pods-FPParavisioniOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FPParavisioniOS_Example-dummy.m"; sourceTree = "<group>"; };
+		F9188CA613D32144D9E7FA2235F254EE /* FPParavisioniOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FPParavisioniOS; path = FPParavisioniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57886691F0DE4B80EC1797C0DAC33B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882844FF623494FE45EDCB15BA11CECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B266FBB1A335E96E02868A03972C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E913FE76D58E390962DD35C0C21D0D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2E5F57DBC93951DD8C3CC45CF4E0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86907C61B792C89736326F08DFC72EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E82C73824CBB62599CEACBCE2D42EAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1839CDFFFF47C37A29FD03E1228DCD91 /* Pods-FPParavisioniOS_Example */,
+				C0E05AEDBC42F1BE6B86D7B5F70DFB95 /* Pods-FPParavisioniOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1839CDFFFF47C37A29FD03E1228DCD91 /* Pods-FPParavisioniOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				240009A4829EF597F785ECC833B26597 /* Pods-FPParavisioniOS_Example.modulemap */,
+				C1294B780FDD2332550E7B36E67076F4 /* Pods-FPParavisioniOS_Example-acknowledgements.markdown */,
+				69661F80D1DD875CA0D3972432D6ED1E /* Pods-FPParavisioniOS_Example-acknowledgements.plist */,
+				E7F99CAF2F4F238112847B379E4C8798 /* Pods-FPParavisioniOS_Example-dummy.m */,
+				2D03A7B284AB3513C8BA900CAAF4A866 /* Pods-FPParavisioniOS_Example-frameworks.sh */,
+				356E79AC120535647B2E5BCB9FD54265 /* Pods-FPParavisioniOS_Example-Info.plist */,
+				C378D82794941242B7CF47BFDBF11B2A /* Pods-FPParavisioniOS_Example-umbrella.h */,
+				1A892DFB35B9B1003B742EB3F0052EC8 /* Pods-FPParavisioniOS_Example.debug.xcconfig */,
+				B2B577FC6856A27A70FB392280ECE2BD /* Pods-FPParavisioniOS_Example.release.xcconfig */,
+			);
+			name = "Pods-FPParavisioniOS_Example";
+			path = "Target Support Files/Pods-FPParavisioniOS_Example";
+			sourceTree = "<group>";
+		};
+		2D9BFE7E0ED96430C96ACCC5DFB9D4F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5113594C1207A2CB72E163E2214760D /* FPParavisioniOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F6E55EFC48324BA87FB4F46EC3CB028 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				634A104B044FCCF0D49A84D6DBD95E3B /* FPParavisioniOS.podspec */,
+				457255EDF94800AA46A2C292FCFCE853 /* LICENSE */,
+				7B4CC0D743C1C4C5E734F9C0C0202DFF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78478E3E20EBD5C0ADE0BB4F423084EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9188CA613D32144D9E7FA2235F254EE /* FPParavisioniOS */,
+				87AB1CAC31559868CBCB97B6EF07A501 /* Pods-FPParavisioniOS_Example */,
+				0640BD757DEA2385A8DC30233A6C2DE3 /* Pods-FPParavisioniOS_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A916266256002A7C144694313285C415 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79EE6EF67BDC291EE88A7AE6203F7F4 /* FPParavisioniOS.modulemap */,
+				18228A6A0F58BCBA1A9307C8CE5A9207 /* FPParavisioniOS-dummy.m */,
+				79EA6A350CB624A7C033DFD505017353 /* FPParavisioniOS-Info.plist */,
+				493D75A048B8E27ECF4B7C6D79335EB1 /* FPParavisioniOS-prefix.pch */,
+				D515D946D431C5BEF1B9DEA750AD13B0 /* FPParavisioniOS-umbrella.h */,
+				656CDB1FACCEC844B5E38D170E4904BA /* FPParavisioniOS.debug.xcconfig */,
+				A8D3F35DB9A2D02584A7F47D27B7C57B /* FPParavisioniOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FPParavisioniOS";
+			sourceTree = "<group>";
+		};
+		B5113594C1207A2CB72E163E2214760D /* FPParavisioniOS */ = {
+			isa = PBXGroup;
+			children = (
+				68E5107428FFE5F47CFE8853C84904A6 /* Logger.swift */,
+				3F6E55EFC48324BA87FB4F46EC3CB028 /* Pod */,
+				A916266256002A7C144694313285C415 /* Support Files */,
+			);
+			name = FPParavisioniOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0E05AEDBC42F1BE6B86D7B5F70DFB95 /* Pods-FPParavisioniOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47975F828AA7C7556BF5882553E967A1 /* Pods-FPParavisioniOS_Tests.modulemap */,
+				6D6478C21E47120119DBBAD2D4F19B1C /* Pods-FPParavisioniOS_Tests-acknowledgements.markdown */,
+				DE53F6562F91D3A174F6B98B3D4A38AE /* Pods-FPParavisioniOS_Tests-acknowledgements.plist */,
+				38C09BE4D545E10837ACBB0F202C0725 /* Pods-FPParavisioniOS_Tests-dummy.m */,
+				2BCC54401D0A10B60A25A6DE457DCDDF /* Pods-FPParavisioniOS_Tests-Info.plist */,
+				CBD7D3461ED928723B55E6ACCFCB0943 /* Pods-FPParavisioniOS_Tests-umbrella.h */,
+				4AA4A7D9C64DA58AD8E12152D5170D40 /* Pods-FPParavisioniOS_Tests.debug.xcconfig */,
+				8B2AF6BB5B7B4C0BD841A7D4D9969A1D /* Pods-FPParavisioniOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-FPParavisioniOS_Tests";
+			path = "Target Support Files/Pods-FPParavisioniOS_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2D9BFE7E0ED96430C96ACCC5DFB9D4F3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				78478E3E20EBD5C0ADE0BB4F423084EF /* Products */,
+				0E82C73824CBB62599CEACBCE2D42EAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		899E5B6694B9DB9CCC837889FCB0C229 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511F7771DFAE14D952778E44F74062CB /* FPParavisioniOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB30BA62B46EA0264C0B99D1F9B9864 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2254DCB9A82E48A99A746C92FAE82872 /* Pods-FPParavisioniOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDD4ED7D062F7ACEDD02F57EC091C2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BCA6A8DE65414AB20EFE2B86583E5C /* Pods-FPParavisioniOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A6D3B8EB014450B046AA0ED03C2DEE1 /* Pods-FPParavisioniOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50A34E0CD7F92FA1F9FA6A5E710D860 /* Build configuration list for PBXNativeTarget "Pods-FPParavisioniOS_Example" */;
+			buildPhases = (
+				AEB30BA62B46EA0264C0B99D1F9B9864 /* Headers */,
+				685E43893A0C02409A5D72A8A44A7418 /* Sources */,
+				57886691F0DE4B80EC1797C0DAC33B0C /* Frameworks */,
+				A7B9236BCF53FB916D21D372F2F96227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A96646B07E302D3A49C1301D197F004 /* PBXTargetDependency */,
+			);
+			name = "Pods-FPParavisioniOS_Example";
+			productName = Pods_FPParavisioniOS_Example;
+			productReference = 87AB1CAC31559868CBCB97B6EF07A501 /* Pods-FPParavisioniOS_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2619CACADA419228CE4AC25CC5C03A1 /* Pods-FPParavisioniOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B7B3248BD0B36307E2C7F1CE47C2DE /* Build configuration list for PBXNativeTarget "Pods-FPParavisioniOS_Tests" */;
+			buildPhases = (
+				EBDD4ED7D062F7ACEDD02F57EC091C2A /* Headers */,
+				7195EBC71F920956960945880947CA54 /* Sources */,
+				6321B266FBB1A335E96E02868A03972C /* Frameworks */,
+				F31632D89B8D1359163D4615FD0138CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D652D53E263EC232E5C39B2DEC8773 /* PBXTargetDependency */,
+			);
+			name = "Pods-FPParavisioniOS_Tests";
+			productName = Pods_FPParavisioniOS_Tests;
+			productReference = 0640BD757DEA2385A8DC30233A6C2DE3 /* Pods-FPParavisioniOS_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE0FA6FB6C477A20DC8FC51F5F4B754F /* FPParavisioniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B60742C9699050B5205369D88A05AF /* Build configuration list for PBXNativeTarget "FPParavisioniOS" */;
+			buildPhases = (
+				899E5B6694B9DB9CCC837889FCB0C229 /* Headers */,
+				54D1701522B63354647C10194F4AE25A /* Sources */,
+				FE2E5F57DBC93951DD8C3CC45CF4E0CE /* Frameworks */,
+				21AEAF8A7C015981C31F82D605D504FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPParavisioniOS;
+			productName = FPParavisioniOS;
+			productReference = F9188CA613D32144D9E7FA2235F254EE /* FPParavisioniOS */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78478E3E20EBD5C0ADE0BB4F423084EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0FA6FB6C477A20DC8FC51F5F4B754F /* FPParavisioniOS */,
+				5A6D3B8EB014450B046AA0ED03C2DEE1 /* Pods-FPParavisioniOS_Example */,
+				E2619CACADA419228CE4AC25CC5C03A1 /* Pods-FPParavisioniOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21AEAF8A7C015981C31F82D605D504FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B9236BCF53FB916D21D372F2F96227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31632D89B8D1359163D4615FD0138CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D1701522B63354647C10194F4AE25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA71F7F743B02FE5EE49F62479B278 /* FPParavisioniOS-dummy.m in Sources */,
+				4485A1DF6A49931E798A0C4ABF1460C1 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E43893A0C02409A5D72A8A44A7418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0F04C2D68AC7AB14AF3BF40F822BF9 /* Pods-FPParavisioniOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7195EBC71F920956960945880947CA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACAF0CF11D71F6AD388CAB0F4727475 /* Pods-FPParavisioniOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A96646B07E302D3A49C1301D197F004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FPParavisioniOS;
+			target = FE0FA6FB6C477A20DC8FC51F5F4B754F /* FPParavisioniOS */;
+			targetProxy = 17F33919001A82728DFBC39675135569 /* PBXContainerItemProxy */;
+		};
+		D1D652D53E263EC232E5C39B2DEC8773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FPParavisioniOS_Example";
+			target = 5A6D3B8EB014450B046AA0ED03C2DEE1 /* Pods-FPParavisioniOS_Example */;
+			targetProxy = 2CC1A88EBD76557E0F80FB24F697F75F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		104C87D10A7FCA32701196B39783C414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656CDB1FACCEC844B5E38D170E4904BA /* FPParavisioniOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPParavisioniOS/FPParavisioniOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPParavisioniOS/FPParavisioniOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPParavisioniOS/FPParavisioniOS.modulemap";
+				PRODUCT_MODULE_NAME = FPParavisioniOS;
+				PRODUCT_NAME = FPParavisioniOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		116716AD97B0EC774777AB2332D59FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A892DFB35B9B1003B742EB3F0052EC8 /* Pods-FPParavisioniOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPParavisioniOS_Example/Pods-FPParavisioniOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPParavisioniOS_Example/Pods-FPParavisioniOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20431DEDC19F255F66DEAF4098B7E74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2AF6BB5B7B4C0BD841A7D4D9969A1D /* Pods-FPParavisioniOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPParavisioniOS_Tests/Pods-FPParavisioniOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPParavisioniOS_Tests/Pods-FPParavisioniOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58B0AD1E847E8FE28F3F6A0DF2290E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B577FC6856A27A70FB392280ECE2BD /* Pods-FPParavisioniOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPParavisioniOS_Example/Pods-FPParavisioniOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPParavisioniOS_Example/Pods-FPParavisioniOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		871D8EA899F5759F20B357740B4869B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D3F35DB9A2D02584A7F47D27B7C57B /* FPParavisioniOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPParavisioniOS/FPParavisioniOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPParavisioniOS/FPParavisioniOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPParavisioniOS/FPParavisioniOS.modulemap";
+				PRODUCT_MODULE_NAME = FPParavisioniOS;
+				PRODUCT_NAME = FPParavisioniOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF8DE7A8CE4DE9A15B2F6D401D2DCFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA4A7D9C64DA58AD8E12152D5170D40 /* Pods-FPParavisioniOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPParavisioniOS_Tests/Pods-FPParavisioniOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPParavisioniOS_Tests/Pods-FPParavisioniOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B7B3248BD0B36307E2C7F1CE47C2DE /* Build configuration list for PBXNativeTarget "Pods-FPParavisioniOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8DE7A8CE4DE9A15B2F6D401D2DCFF9 /* Debug */,
+				20431DEDC19F255F66DEAF4098B7E74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50A34E0CD7F92FA1F9FA6A5E710D860 /* Build configuration list for PBXNativeTarget "Pods-FPParavisioniOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116716AD97B0EC774777AB2332D59FFF /* Debug */,
+				58B0AD1E847E8FE28F3F6A0DF2290E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B60742C9699050B5205369D88A05AF /* Build configuration list for PBXNativeTarget "FPParavisioniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104C87D10A7FCA32701196B39783C414 /* Debug */,
+				871D8EA899F5759F20B357740B4869B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
